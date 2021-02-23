@@ -1,0 +1,5 @@
+# %%
+inputvariable = input()
+print = inputvariable
+
+# %%
