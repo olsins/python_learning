@@ -7,12 +7,17 @@ class Food:
 
     def __str__(self):
         return "Name: " + self.name \
-            + " Carbs" + self.carbs \
-            + " protein" + self.protein \
-            + "fat" + self.fat
+            + " Carbs " + self.carbs \
+            + " protein " + self.protein \
+            + " fat " + self.fat
 
 
-dishes = [Food("lasagne", 11, 12, 13), Food("chicken", 1, 5, 7)]
+# dishes = [Food(), Food()]
+dishes = [Food("lasagne", "11", "12", "13"), Food("chicken", "1", "5", "7")]
 
-for foods in dishes:
-    print(foods)
+
+# print(dishes)
+for x in dishes:
+    print(x)
+
+# print(dishes)
